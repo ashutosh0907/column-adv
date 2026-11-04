@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Arc task lamp with a warm glow">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eae7df"/>
+      <stop offset="1" stop-color="#d7d2c4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f0bd7a" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#f0bd7a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3d403c"/>
+      <stop offset="1" stop-color="#262925"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="290" r="210" fill="#fffdf9" opacity=".28"/>
+  <circle cx="548" cy="340" r="128" fill="url(#glow)"/>
+  <ellipse cx="400" cy="492" rx="176" ry="24" fill="#2b271e" opacity=".13"/>
+  <rect x="316" y="450" width="168" height="20" rx="10" fill="#353833"/>
+  <rect x="394" y="252" width="11" height="202" rx="5.5" fill="#353833"/>
+  <path d="M400 262c52-54 112-74 148-46" fill="none" stroke="#353833" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="552" cy="212" r="10" fill="#b4613c"/>
+  <path d="M508 200h88l-26 66h-36Z" fill="url(#shade)"/>
+  <ellipse cx="552" cy="266" rx="18" ry="8" fill="#f0bd7a"/>
+  <path d="M534 266c10 22 26 22 36 0" fill="none" stroke="#e7b273" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  <rect x="470" y="414" width="76" height="5" rx="2.5" fill="#c7bfae" opacity=".7"/>
+</svg>

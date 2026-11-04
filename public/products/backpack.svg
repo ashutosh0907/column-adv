@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Everyday weatherproof daypack">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e3e9e5"/>
+      <stop offset="1" stop-color="#c9d5d0"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#51645a"/>
+      <stop offset="1" stop-color="#3d4f46"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="296" r="210" fill="#fffdf9" opacity=".28"/>
+  <ellipse cx="400" cy="500" rx="150" ry="22" fill="#1f2a24" opacity=".13"/>
+  <path d="M360 188c0-58 80-58 80 0" fill="none" stroke="#34443d" stroke-width="14" stroke-linecap="round"/>
+  <rect x="296" y="196" width="34" height="258" rx="17" fill="#34443d"/>
+  <rect x="470" y="196" width="34" height="258" rx="17" fill="#34443d"/>
+  <rect x="292" y="186" width="216" height="296" rx="84" fill="url(#pack)"/>
+  <path d="M400 188v150" stroke="#3a4a42" stroke-width="26" stroke-linecap="round" opacity=".65"/>
+  <rect x="330" y="326" width="140" height="110" rx="36" fill="#3b4c43"/>
+  <path d="M352 356h96" stroke="#c9a36a" stroke-width="3" stroke-linecap="round"/>
+  <rect x="430" y="346" width="28" height="34" rx="7" fill="#c9a36a"/>
+  <rect x="430" y="346" width="28" height="12" rx="6" fill="#a9854f"/>
+  <circle cx="400" cy="280" r="19" fill="#a9854f"/>
+  <circle cx="400" cy="280" r="8" fill="#8e6d3e"/>
+  <path d="M312 436c18 20 42 32 88 32s70-12 88-32" fill="none" stroke="#2f3e37" stroke-width="3" opacity=".5"/>
+</svg>

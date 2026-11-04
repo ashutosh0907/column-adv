@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Aero over-ear headphones">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efe8dd"/>
+      <stop offset="1" stop-color="#dbcbb6"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3c3b36"/>
+      <stop offset="1" stop-color="#1d1c19"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="286" r="208" fill="#fffdf9" opacity=".3"/>
+  <ellipse cx="400" cy="502" rx="192" ry="22" fill="#241f18" opacity=".13"/>
+  <path d="M258 356C258 206 542 206 542 356" fill="none" stroke="#2b2a26" stroke-width="30" stroke-linecap="round"/>
+  <path d="M278 348C278 228 522 228 522 348" fill="none" stroke="#b4613c" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+  <rect x="214" y="330" width="92" height="154" rx="46" fill="url(#cup)"/>
+  <rect x="494" y="330" width="92" height="154" rx="46" fill="url(#cup)"/>
+  <rect x="238" y="354" width="44" height="106" rx="22" fill="#111110" opacity=".55"/>
+  <rect x="518" y="354" width="44" height="106" rx="22" fill="#111110" opacity=".55"/>
+  <circle cx="260" cy="408" r="7" fill="#b4613c"/>
+  <circle cx="540" cy="408" r="7" fill="#b4613c" opacity=".45"/>
+  <path d="M305 438c62 34 128 34 190 0" fill="none" stroke="#8a7a66" stroke-width="3" stroke-linecap="round" opacity=".32"/>
+</svg>

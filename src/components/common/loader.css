@@ -1,0 +1,111 @@
+/* Universal Loader (Transparent Overlay with Circular Spinner) ------------ */
+
+.fixed {
+  position: fixed;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.z-40 {
+  z-index: 2040;
+}
+
+.z-50 {
+  z-index: 2050;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.top-1\/2,
+[class~="top-1/2"] {
+  top: 50%;
+}
+
+.left-1\/2,
+[class~="left-1/2"] {
+  left: 50%;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x, -50%), var(--tw-translate-y, -50%));
+}
+
+.-translate-x-1\/2,
+[class~="-translate-x-1/2"] {
+  --tw-translate-x: -50%;
+}
+
+.-translate-y-1\/2,
+[class~="-translate-y-1/2"] {
+  --tw-translate-y: -50%;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.border-primary {
+  border-color: var(--color-accent, #a9c8b6);
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.animate-spin {
+  animation: loader-spin 0.85s linear infinite;
+}
+
+@keyframes loader-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

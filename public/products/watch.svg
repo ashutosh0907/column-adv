@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Arc smartwatch with a green strap">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e4eae6"/>
+      <stop offset="1" stop-color="#c8d5cf"/>
+    </linearGradient>
+    <linearGradient id="case" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a413d"/>
+      <stop offset="1" stop-color="#232a26"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#25322b"/>
+      <stop offset="1" stop-color="#101714"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="298" r="212" fill="#fffdf9" opacity=".26"/>
+  <ellipse cx="400" cy="508" rx="136" ry="20" fill="#1f2a24" opacity=".12"/>
+  <rect x="345" y="72" width="110" height="160" rx="34" fill="#40574e"/>
+  <rect x="345" y="368" width="110" height="164" rx="34" fill="#40574e"/>
+  <rect x="345" y="368" width="110" height="44" rx="22" fill="#33473f" opacity=".7"/>
+  <rect x="296" y="196" width="208" height="268" rx="58" fill="url(#case)"/>
+  <rect x="313" y="213" width="174" height="234" rx="44" fill="url(#screen)"/>
+  <text x="400" y="302" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="52" font-weight="300" letter-spacing="2" fill="#eef3ec">09:41</text>
+  <text x="400" y="330" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="3" fill="#9eb7a8">MON 24</text>
+  <circle cx="400" cy="382" r="30" fill="none" stroke="#3c5146" stroke-width="6"/>
+  <circle cx="400" cy="382" r="30" fill="none" stroke="#a8c7b4" stroke-width="6" stroke-linecap="round" stroke-dasharray="118 71" transform="rotate(-90 400 382)"/>
+  <circle cx="400" cy="382" r="30" fill="none" stroke="#c98a5b" stroke-width="6" stroke-linecap="round" stroke-dasharray="62 127" stroke-dashoffset="-128" transform="rotate(-90 400 382)"/>
+  <rect x="504" y="284" width="12" height="58" rx="6" fill="#3d4540"/>
+  <rect x="504" y="360" width="10" height="34" rx="5" fill="#3d4540" opacity=".8"/>
+</svg>
